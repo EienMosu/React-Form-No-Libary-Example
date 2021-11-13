@@ -1,0 +1,38 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.459),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.unsplash.com/photo-1636701887096-c92be0e55495?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&q=80");
+  background-size: cover;
+  background-position: center;
+
+  form {
+    background-color: white;
+    padding: 0px 60px;
+    border-radius: 30px;
+
+    h1 {
+      text-align: center;
+    }
+
+    button {
+      margin-top: 15px;
+      margin-bottom: 30px;
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  }
+}
